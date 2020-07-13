@@ -1,0 +1,149 @@
+.svg-inline--fa {
+  color: #666666;
+}
+.spacer {
+  flex: 1;
+}
+* {
+  transition: all 200ms ease;
+}
+.list-item {
+  display: inline-block;
+  margin-right: 10px;
+}
+.list-enter-active, .list-leave-active {
+  transition: all 300ms;
+}
+.list-enter, .list-leave-to {
+  opacity: 0;
+  transform: translateY(30px);
+}
+.fade-enter-active, .fade-leave-active {
+  transition: opacity .5s;
+}
+.fade-enter, .fade-leave-to {
+  opacity: 0;
+}
+.col {
+  display: flex;
+  flex-direction: column;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.textarea {
+  border: none;
+  border-radius: 5px;
+  resize: none;
+  outline: none;
+  padding: 5px 10px;
+  margin: 5px;
+  font: 400 18px 'Noto Sans KR', 'Malgun Gothic', sans-serif;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+  &::placeholder {
+    font: 400 15px 'Noto Sans KR', 'Malgun Gothic', sans-serif;
+  }
+}
+
+.btn {
+  display: inline-block;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+  border: none;
+  background-color: #ffffff;
+  border-radius: 5px;
+  padding: 5px 20px;
+  font: 400 18px 'Noto Sans KR', 'Malgun Gothic', sans-serif;
+  cursor: pointer;
+  text-decoration: none;
+  margin: 5px;
+  color: #000000;
+  outline: none;
+  &:hover {
+    background-color: rgba(0,0,0,0.1);
+  }
+  &:active {
+    background-color: rgba(0,0,0,0.2);
+  }
+  &-purple, &-green, &-beige, &-blue {
+    color: #ffffff;
+  }
+  &-purple {
+    background-color: #a96afc;
+    &:hover {
+      background-color: #994aff;
+    }
+    &:active {
+      background-color: #7815fa;
+    }
+  }
+  &-green {
+    background-color: #75ff93;
+    &:hover {
+      background-color: #37f360;
+    }
+    &:active {
+      background-color: #0cf53f;
+    }
+  }
+  &-beige {
+    background-color: #ebb26d;
+    &:hover {
+      background-color: #e99a39;
+    }
+    &:active {
+      background-color: #eb870e;
+    }
+  }
+  &-blue {
+    background-color: #56e6ff;
+    &:hover {
+      background-color: #2bdfff;
+    }
+    &:active {
+      background-color: #00d9ff;
+    }
+  }
+}
+
+.label {
+  margin: 10px 5px 5px 5px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.input {
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  padding: 5px 10px;
+  margin: 5px;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+  font: 400 15px 'Noto Sans KR', 'Malgun Gothic', sans-serif;
+}
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
