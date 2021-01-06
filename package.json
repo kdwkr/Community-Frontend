@@ -14,7 +14,7 @@
     "@toast-ui/editor": "^2.2.0",
     "@toast-ui/vue-editor": "^2.2.0",
     "@types/vue-moment": "^4.0.0",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "codemirror": "^5.55.0",
     "core-js": "^3.6.5",
     "moment": "^2.27.0",
